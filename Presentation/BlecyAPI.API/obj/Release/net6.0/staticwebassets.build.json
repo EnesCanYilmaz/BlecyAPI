@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PZOH1a5uQzES2zS3/q90USq2WQ2+sYsIYqQUIyj62nM=",
+  "Source": "BlecyAPI.API",
+  "BasePath": "_content/BlecyAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

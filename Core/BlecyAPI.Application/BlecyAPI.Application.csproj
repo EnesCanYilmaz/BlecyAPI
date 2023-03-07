@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlecyAPI.Domain\BlecyAPI.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Post\" />
+    <None Remove="ViewModels\" />
+    <None Remove="ViewModels\Posts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Post\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Posts\" />
+  </ItemGroup>
+</Project>

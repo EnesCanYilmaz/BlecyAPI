@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/enescanyilmaz/Projects/BlecyAPI/Presentation/BlecyAPI.API/BlecyAPI.API.csproj": {}
+  },
+  "projects": {
+    "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj",
+        "projectName": "BlecyAPI.Application",
+        "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj",
+        "packagesPath": "/Users/enescanyilmaz/.nuget/packages/",
+        "outputPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescanyilmaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/BlecyAPI.Domain.csproj": {
+                "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/BlecyAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/BlecyAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/BlecyAPI.Domain.csproj",
+        "projectName": "BlecyAPI.Domain",
+        "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/BlecyAPI.Domain.csproj",
+        "packagesPath": "/Users/enescanyilmaz/.nuget/packages/",
+        "outputPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescanyilmaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/BlecyAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/BlecyAPI.Persistence.csproj",
+        "projectName": "BlecyAPI.Persistence",
+        "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/BlecyAPI.Persistence.csproj",
+        "packagesPath": "/Users/enescanyilmaz/.nuget/packages/",
+        "outputPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescanyilmaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj": {
+                "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/enescanyilmaz/Projects/BlecyAPI/Presentation/BlecyAPI.API/BlecyAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/enescanyilmaz/Projects/BlecyAPI/Presentation/BlecyAPI.API/BlecyAPI.API.csproj",
+        "projectName": "BlecyAPI.API",
+        "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Presentation/BlecyAPI.API/BlecyAPI.API.csproj",
+        "packagesPath": "/Users/enescanyilmaz/.nuget/packages/",
+        "outputPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Presentation/BlecyAPI.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/enescanyilmaz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj": {
+                "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/BlecyAPI.Application.csproj"
+              },
+              "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/BlecyAPI.Persistence.csproj": {
+                "projectPath": "/Users/enescanyilmaz/Projects/BlecyAPI/Infrastructure/BlecyAPI.Persistence/BlecyAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

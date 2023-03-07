@@ -1,0 +1,15 @@
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/bin/Debug/net6.0/BlecyAPI.Application.deps.json
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/bin/Debug/net6.0/BlecyAPI.Application.dll
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/bin/Debug/net6.0/BlecyAPI.Application.pdb
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/bin/Debug/net6.0/BlecyAPI.Domain.dll
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/bin/Debug/net6.0/BlecyAPI.Domain.pdb
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.csproj.AssemblyReference.cache
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.AssemblyInfoInputs.cache
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.AssemblyInfo.cs
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.csproj.CoreCompileInputs.cache
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.csproj.CopyComplete
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.dll
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/refint/BlecyAPI.Application.dll
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/BlecyAPI.Application.pdb
+/Users/enescanyilmaz/Projects/BlecyAPI/Core/BlecyAPI.Application/obj/Debug/net6.0/ref/BlecyAPI.Application.dll
