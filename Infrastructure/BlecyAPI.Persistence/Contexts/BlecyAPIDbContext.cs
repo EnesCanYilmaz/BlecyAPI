@@ -15,7 +15,6 @@ namespace BlecyAPI.Persistence.Contexts
 		}
 		public DbSet<Post> Posts { get; set; }
 		public DbSet<Domain.Entities.File> Files { get; set; }
-		public DbSet<PostImageFile> PostImageFiles { get; set; }
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var datas = ChangeTracker.Entries<BaseEntity>();

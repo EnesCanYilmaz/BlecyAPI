@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{02F5658C-236B-4C3E-B360-69691CF7A70F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.BlecyAPI.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/BlecyAPI.API/appsettings.json">
+    <Files>
+      <File FileName="Presentation/BlecyAPI.API/Controllers/PostsController.cs" />
+      <File FileName="Presentation/BlecyAPI.API/Program.cs" Line="20" Column="22" />
+      <File FileName="Core/BlecyAPI.Domain/Entities/Post.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/BlecyAPI.Persistence/Contexts/DesignTimeDbContextFactory.cs" Line="15" Column="6" />
+      <File FileName="Infrastructure/BlecyAPI.Persistence/Contexts/BlecyAPIDbContext.cs" Line="1" Column="1" />
+      <File FileName="Presentation/BlecyAPI.API/appsettings.json" Line="9" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlecyAPI" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="BlecyAPI.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="BlecyAPI.Persistence" expanded="True">
+                <Node name="Contexts" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="BlecyAPI.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="appsettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>Core/Blecy/Blecy.csproj</String>
+    <String>Core/BlecyAPI.Domain/BlecyAPI.Application/BlecyAPI.Application.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Presentation.BlecyAPI.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

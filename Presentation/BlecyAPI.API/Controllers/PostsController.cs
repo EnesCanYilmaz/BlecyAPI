@@ -18,10 +18,9 @@ namespace BlecyAPI.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult>List()
+        public async Task<IActionResult> List()
         {
-            return Ok(_readPostRepository.GetAll());
+            return Ok(_readPostRepository.GetAll(false));
         }
     }
 }
-
